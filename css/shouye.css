@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.nav{
+    width: 1000px;
+    height: 50px;
+	margin:0 auto;
+  background: rgb(195,193,34);
+  background: linear-gradient(0deg, rgba(195,193,34,1) 0%, rgba(81,253,45,1) 100%);
+  }
+.logo{
+    margin-left: 100px;   /*可以根据实际情况自己来设置*/
+    float: left;
+}
+a{
+    text-decoration: none; 
+}
+.nav ul li{
+    margin-left: 15px;
+    height: 50px;
+    list-style: none;
+    line-height:50px;
+    font-size: 20px;
+    float: left;
+}
+.nav ul li a{
+    display: block;
+    padding:0 30px;
+    color: white;
+}
+.nav ul li a:hover{         /*鼠标滑过特效*/
+    border-bottom: 2px solid seagreen;
+    color: seagreen;
+}
